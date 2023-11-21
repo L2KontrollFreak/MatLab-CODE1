@@ -52,3 +52,16 @@ for i = 1:8
         fprintf('\t %g \t\t\t\t CLOSED \n', pressure(i))
     end
 end
+% Problem 1 - Order of operations 
+P1 = sqrt((((4.172+9.131844)^3)-18)/(-3.5+((11.2-4.6)*((7-2.91683)^-0.4))))
+
+% Problem 2 - Input Arrays 3x.
+g= linspace(-2,2,11)
+h=-2:0:4:2
+mn=[-2.-1.6,-1.2,-0.8,-0.4,0,0.4,0.8,1.2,1.6,2.0]
+
+% Problem 3 - Fuel Plot
+V = 30:1:70;
+
+FC = (V.*1050)./(910+(v.^1.88));
+
