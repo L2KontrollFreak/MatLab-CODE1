@@ -64,4 +64,14 @@ mn=[-2.-1.6,-1.2,-0.8,-0.4,0,0.4,0.8,1.2,1.6,2.0]
 V = 30:1:70;
 
 FC = (V.*1050)./(910+(v.^1.88));
+figure(1); plot(V,FC); title('Fuel Consumption'); x
+label('Velocity [mph]'); ylabel('Fuel Consumption [gall}')
 
+%% Problem 4 - For loop EC
+
+press = [0,1,1,2,3,5,8,13,21,34,55,89,144];
+sum=0;
+for i=1:12
+sum = sum + press(i);
+end
+fprintf('\n\t sum is %g' sum)
