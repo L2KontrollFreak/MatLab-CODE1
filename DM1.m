@@ -1,7 +1,7 @@
 %% ENGR-10, 11/21/2023; Intro To ENG.; Author:Darien Marble;
 clc; format compact;
 
-% Example 1
+% Example 1 - variable storage
 x = 5
 y = 9
 z1 = x+y 
@@ -10,13 +10,13 @@ z1=x^2
 Z1=y^2 % what i do
 disp(z1) % write any comment i need to type
 
-% example 2
+% example 2 - creating inputs arrays
 g = linspace(0,2,5) % creates vector
 h =0:0.25:4 % creates array
 m = [1 1.2 1.6 2.2] % is a vector
 mn= [1. 2; 3, 4; 5, 6]
     
-% example 3
+% example 3 - Plotting
 X = 0:0.5:10
 Y = X.^2
 Y2 = Y./2
