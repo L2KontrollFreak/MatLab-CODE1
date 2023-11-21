@@ -47,8 +47,8 @@ pressure = [20, 18, 22, 26, 19, 19, 21, 12];
 fprintf('\n\t Line Pressure (psi) \t Value Position \n \n');
 for i = 1:8
     if pressure(i) >= 20
-        fprintf('\t %g \t\t\t\t\t OPEN\n', pressure(i))
+        fprintf('\t %g \t\t\t\t\t OPEN \n', pressure(i))
     else
-        fprintf('t %g \t\t\t\t CLOSED\n', pressure(i))
+        fprintf('\t %g \t\t\t\t CLOSED \n', pressure(i))
     end
 end
